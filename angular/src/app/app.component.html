@@ -1,0 +1,28 @@
+<body>
+  <mat-toolbar>
+      <h1>Activity 1</h1>
+  </mat-toolbar>
+  
+  <mat-sidenav-container>
+      <mat-sidenav mode="side" opened>
+  
+          <mat-list class="list">
+              <mat-list-item> 
+                  <a routerLink="firstnav" (click)="navClick('firstnav')" routerLinkActive="active" class="anchor_class">First navigation</a>
+              </mat-list-item>
+              
+              <mat-list-item> 
+                  <a routerLink="secondnav" (click)="navClick('secondnav')" routerLinkActive="active" class="anchor_class">Second navigation</a>
+              </mat-list-item>
+
+          </mat-list>
+      
+      </mat-sidenav>
+      <mat-sidenav-content class="content">
+    
+      <router-outlet></router-outlet>
+      </mat-sidenav-content>
+      
+  </mat-sidenav-container>
+  </body>
+

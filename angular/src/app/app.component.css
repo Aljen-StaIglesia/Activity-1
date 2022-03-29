@@ -1,0 +1,46 @@
+mat-toolbar{
+    background: rgb(238, 226, 247);
+    color: rgb(22, 20, 20);
+    height: 60px;
+}
+
+mat-sidenav{
+     width: 180px;
+     background: rgba(183, 184, 187, 0.918);
+     color: white;
+     padding: 16px;
+     text-align: center;
+}
+
+mat-list-item:hover{
+    background: rgba(122, 161, 161, 0.918);
+    cursor: pointer;
+}
+mat-sidenav-container{
+    height: calc(100vh - 65px);
+   background-color: rgb(241, 241, 241);
+}
+
+ .content{
+     margin-left: 32px;
+ }
+
+ .anchor_class{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+     justify-content: flex-start;
+     font-size: 20px;
+     color: black;
+     margin-left: 25px;  
+ }
+
+
+ mat-divider{
+     background-color: black;
+ }
+
+ h1{
+     font-size: 30px;
+ }
